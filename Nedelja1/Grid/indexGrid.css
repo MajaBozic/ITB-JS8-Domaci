@@ -1,0 +1,69 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Georgia, 'Palatino Linotype', serif;
+    font-size: 18px;
+    line-height: 1.2;
+}
+
+#main-header {
+    height: 15vh;
+    background-color: rgb(211, 157, 243);
+}
+
+header img {
+    margin: 9px;
+}
+
+
+ul {
+    list-style: none;
+    margin-left: 63vw;
+    align-self: auto;
+}
+
+nav ul li {
+    display: inline-block;
+    background-color: yellow;
+    margin-top: 15px;
+    margin-left: 9px;
+    padding: 0.51em;    
+    border-radius: 6px;
+}
+
+main {
+    background-color:rgb(157, 138, 238);
+       height: 70vh; /*view height*/
+       width: 90vw; /* view width */
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    gap: 1px 1px;
+    grid-template-areas: "sl1 sl1 sl3 sl4 sl4" "sl1 sl1 sl2 sl2 sl7" "sl5 sl5 sl2 sl2 sl7" "sl5 sl5 sl6 sl6 sl6";
+    height: 70vh;
+  }
+
+  .sl1 { background-color: rgb(139, 9, 139); grid-area: sl1; } 
+  
+  .sl2 { background-color: # rgb(83, 83, 233); grid-area: sl2; }
+  
+  .sl3 { background-color: rgb(34, 13, 83); color: lightyellow; grid-area: sl3; }
+  
+  .sl4 { background-color: lightseagreen; grid-area: sl4; }
+  
+  .sl5 { background-color: yellow; grid-area: sl5; }
+  
+  .sl6 { background-color: rgb(67, 16, 114); color: yellow; grid-area: sl6; }
+  
+  .sl7 { background-color: rgb(241, 197, 0); grid-area: sl7; }
+
+footer {
+    background-color: rgb(235, 110, 218);
+    height: 10vh;
+}
+

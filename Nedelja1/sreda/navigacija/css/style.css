@@ -1,0 +1,102 @@
+body {
+    margin: 0;
+    font-family: Georgia, 'Bookman Old Style', serif;
+    font-size: 16px;
+    line-height: 1.2;
+    color: rgb(62, 11, 73);
+    background-color: rgb(224, 172, 222);
+}
+
+h1 {
+    text-align: center;
+    font-size: 39px;
+    margin-top: 57px;
+    text-decoration: underline;     
+}
+
+.nav ul, #footer ul {
+    list-style: none;
+}
+
+.nav ul li {
+    display: inline-block;
+    float: right;
+    padding-left: 27px;
+}
+
+.nav ul li:first-child {
+    padding-right: 12.5%;
+}
+
+div.clear {
+    clear: both;
+}
+
+h2 {
+    text-align: center;
+}
+
+div.img, div.small, div.gore {
+    text-align: center;
+}
+
+section .img img {
+    max-width: 100%;
+}
+
+.cintainer {
+    width: 75%;
+    align-self: center;
+}
+
+a {
+    font-size: 21px;
+    color: rgb(62, 11, 73);
+    align-self: center;
+    text-decoration: none;
+}
+
+a :hover, :active {
+    color: rgb(62, 11, 73);
+}
+
+#header #nav {
+    display: inline;
+    text-decoration: none;
+    float: right;
+}
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+#main>section>p {
+    margin: auto;
+}
+
+#header>nav>ul>li {
+    display: inline-block;
+    margin-right: 3%;
+    padding-left: 75%;
+}
+
+p {
+    width: 75%;
+    align-self: auto;
+    background-color: rgb(167, 73, 162);
+}
+
+ul.small>li.auth, ul.small>li.cont {
+    display: inline-block;
+    float: left;
+    padding-left: 28.5%;
+}
+
+#gore {
+    display: inline-block;
+    float: right;
+    padding-right: 43%;
+}
+
+.hr {
+    color: rgb(167, 73, 162);
+}
