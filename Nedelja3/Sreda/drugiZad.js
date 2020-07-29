@@ -2,15 +2,18 @@
 
 let r = 21
 let cena = 1499
-let pP
+let pP, cQcm
 
-pP = r * r * Math.PI 
-// console.log(pP)
+function cmQ(r, cena) {
+    if(r > 0 && cena > 0) {
+        pP = r * r * Math.PI 
+        console.log(pP)     //(pP.toFixed(2))
+        cQcm = cena / pP
+        console.log(cQcm)   // (cQcm.toFixed(2))
+        }
+        else {
+            console.log('Unos nije validan')
+        }
+    }
 
-if (r > 0 && cena > 0) {
-    let cQcm = cena / pP
-    console.log(cQcm.toFixed(2))
-}
-else {
-    console.log('Unos nije validan')
-}
+// cmQ(18, 1498)
