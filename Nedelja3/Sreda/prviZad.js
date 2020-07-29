@@ -3,7 +3,7 @@
 let a, b, c
 let rezultat
 
-function maxOd3(a, b, c) {
+function maxOd3br(a, b, c) {
     if (a > b && a > c) {
         rezultat = a 
     }
@@ -17,9 +17,13 @@ function maxOd3(a, b, c) {
     return rezultat
 }
 
-// maxOd3(3,5,7)
-// maxOd3(23,35,17)
-// maxOd3(39,45,77)
-// maxOd3(313,205,197)
-// maxOd3(1143,2005,397)
-// maxOd3(1203,5790,759)
+// maxOd3br(3,5,7)
+// maxOd3br(23,35,17)
+// maxOd3br(39,45,77)
+// maxOd3br(313,205,197)
+// maxOd3br(1143,2005,397)
+// maxOd3br(1203,5790,759)
+// maxOd3br(-1203,-5790,759)
+// maxOd3br(1203,-5790,-759)
+// maxOd3br(-1203,-5790,-759)
+// maxOd3br(-1203,-5790,-1759)
