@@ -5,7 +5,7 @@ let cena = 1499
 let pP
 
 pP = r * r * Math.PI 
-console.log(pP)
+// console.log(pP)
 
 if (r > 0 && cena > 0) {
     let cQcm = cena / pP
