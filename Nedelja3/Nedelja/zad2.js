@@ -5,8 +5,8 @@
     function dozivotno(mesecno, god) {
         let snabdevanje = 0
             if(mesecno >= 0 && god > 0 && god < 100 ){
-            return snabdevanje += (mesecno * (100 - god) * 12)
-            console.log(snabdevanje)
+                return snabdevanje += (mesecno * (100 - god) * 12)
+                console.log(snabdevanje)
             }
             else {
                 return "Unesite validne argumente"
