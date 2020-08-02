@@ -16,5 +16,5 @@
     // console.log(dozivotno(-11, 26))
     // console.log(dozivotno(1, 99))
     // console.log(dozivotno(3, 99))
-    console.log(dozivotno(1, 111))
+    // console.log(dozivotno(1, 111))
 
