@@ -1,0 +1,1 @@
+/* Sortirati pokemone po brzini, rastuce. */
