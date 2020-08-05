@@ -43,7 +43,7 @@ let Pok4 = {
 
 let nizPok = [Pok1, Pok2, Pok3, Pok4]
   console.log(nizPok) 
-  console.log('************************************************************')
+  console.log('*********************************************************')
 
 
   console.log('Zadatak2.js')
