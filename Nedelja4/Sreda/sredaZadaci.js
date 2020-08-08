@@ -42,11 +42,12 @@ let Pok4 = {
 // console.log(Pok4)
 
 let nizPok = [Pok1, Pok2, Pok3, Pok4]
-  console.log(nizPok) 
-  console.log('************************************************************')
+console.log(nizPok) 
+  
+console.log('************************************************************')
 
 
-  console.log('Zadatak2.js')
+console.log('Zadatak2.js')
 
 /* Napraviti funkciju koja prima niz gore napravljenih objekata i vraca jedan niz sposobnosti svih pokemona 
  ```
@@ -66,7 +67,6 @@ function nizSposP(nizPok) {
 
 console.log(nizSposP(nizPok))
 
-
 console.log('************************************************************')
 
 
@@ -79,4 +79,3 @@ nizPok = [Pok1, Pok2, Pok3, Pok4]
 nizPok.sort((a,b) => a.karakteristike.Brzn - b.karakteristike.Brzn) 
 
 console.log(nizPok)
-
