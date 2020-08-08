@@ -64,7 +64,7 @@ function nizSposP(nizPok) {
   return nizSpos.flat()
 }
 
-console.log(nizSposP(nizPok));
+console.log(nizSposP(nizPok))
 
 
 console.log('************************************************************')
